@@ -28,7 +28,7 @@ document.querySelector("button").addEventListener("click", function(){
 
     if (players>6 || (players*races>17) || players < 3) {
 
-      var newp = document.createElement("p").innerText = ("invalid configuration.  There must be 3 - 6 players and no more than 17 races.");
+      var newp = document.createElement("p").innerText = ("invalid configuration.  There must be 3 - 6 players and no more than 17 races, total");
       document.getElementById("output").append(newp);
 
     } else {

@@ -1,7 +1,7 @@
 
 document.querySelector("button").addEventListener("click", function(){
 
-  var raceList = [
+  let raceList = [
     "Emirates of Hacan",
     "Universities of Jol-Nar",
     "L1Z1X Mindnet",

@@ -5,7 +5,7 @@ var port = process.env.PORT || 8000;
 
 
 app.get("/", function(req, res){
-  res.sendFile("ti4_generator.html");
+  res.sendFile("./ti4_generator.html");
 })
 
 

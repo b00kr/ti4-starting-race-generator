@@ -1,6 +1,6 @@
 var express = require("express");
 var app = express();
-var port = process.env.PORT || 8000
+var port = process.env.PORT || 8000;
 
 
 
@@ -9,6 +9,6 @@ app.get("/", function(req, res){
 })
 
 
-server.listen(port, function() {
+app.listen(port, function() {
     console.log("App is running on port " + port);
 });

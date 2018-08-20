@@ -1,0 +1,27 @@
+{
+  "name": "ti4_race_generator",
+  "version": "1.0.0",
+  "description": "",
+  "main": "ti4.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/b00kr/ti4-starting-race-generator.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/b00kr/ti4-starting-race-generator/issues"
+  },
+  "homepage": "https://github.com/b00kr/ti4-starting-race-generator#readme",
+  "devDependencies": {
+    "eslint": "^5.4.0",
+    "eslint-config-standard": "^11.0.0",
+    "eslint-plugin-import": "^2.14.0",
+    "eslint-plugin-node": "^7.0.1",
+    "eslint-plugin-promise": "^4.0.0",
+    "eslint-plugin-standard": "^3.1.0"
+  }
+}

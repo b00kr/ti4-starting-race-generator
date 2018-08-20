@@ -7,18 +7,16 @@
   </head>
 
   <body>
-    <h1>Twilight Imperium 4  Race Generator</h1>
-
-    <form>
+    <div class="container">
+      <h1>Twilight Imperium 4  Race Generator</h1>
       <h2># of players</h2>
       <input type="number" id="playerCount" placeholder="3 to 6 players">
       <h2># of races/player</h2>
       <input type="number" id="raceCount" placeholder="max of 17 races">
-      <button  type="button" "id="generate">Generate!</button>
-    </form>
+      <button  type="button" id="generate" onclick="generatePackages()">Generate!</button>
+      <div id="output"></div>
+    </div>
 
-    <div id="output"></div>
-
-    <script type="text/javascript" src="./ti4.js"></script>
+    <script type="text/javascript" src="ti4.js"></script>
   </body>
 </html>
